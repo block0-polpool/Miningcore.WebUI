@@ -32,8 +32,7 @@ body {
  .main-header {
 	position: relative;
 	max-height: 100px;
-  
-	background-color: #9c27b0 !important;
+	/*background-color: #9c27b0 !important;*/
 	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46);
 	z-index: 4;
 }
@@ -51,10 +50,10 @@ body {
 
 
 .main-header {
-  top: 0;
+  top: 60px;
   right: 0;
   left: 0;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 
@@ -85,8 +84,9 @@ body {
 }
 
 .content-wrapper {
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 70px;
+  background-image: radial-gradient(#153154,#091423);
 }
 
 .content-header {
@@ -115,6 +115,7 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  background:radial-gradient(#153154,#091423);
 }
 
 
@@ -124,29 +125,24 @@ body {
                   SIDEBAR
 ****************************************************************/
 .main-sidebar {
-  top:0;
+  top:60px;
   left:0;
   padding-top: 0px;
-  
   font-size: 16px;
-  
   width: 230px;
   height: 100%;
   max-height: 100%;
   min-height: 100%;
   display: block;
   position: fixed;
-
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgb(255, 255, 255);
+  background-image: background-image: radial-gradient(#153154,#091423);
   background-origin: padding-box;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  
   z-index:810;
   -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
  -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
@@ -157,7 +153,7 @@ body {
 
 .main-sidebar::after {
   content: "";
-  background: url('../img/sidebar-1.jpg');
+  /*background: url('../img/sidebar-1.jpg');*/
   opacity: 0.1;
   top: 0;
   left: 0;
@@ -180,14 +176,15 @@ body {
 .sidebar li a {
   margin: 10px 15px 0;
   border-radius: 3px;
-  color: #3C4858;
+  color: #a0a0a0;
   padding-left: 10px;
   padding-right: 10px;
   text-transform: capitalize;
-
   padding: 10px 15px;
 }
 
+.sidebar li:hover>a,
+.sidebar li:hover>a i,
 .sidebar li.active>a,
 .sidebar li.active>a i {
   color: #fff;
@@ -297,7 +294,7 @@ body {
 }
 
 .table td {
-    padding: 0.5rem;
+    padding: 5px;
     vertical-align: middle;
     border-top: 1px solid #dee2e6;
 	font-size: 1.05rem;
@@ -329,15 +326,12 @@ body {
   margin-bottom: 5px;
   margin-left:   1px;
   margin-right:  1px;
-   
   border:        0px;
   border-radius: 6px;
-
   padding-top:    8px;
   padding-bottom: 8px;
   padding-left:   30px;
   padding-right:  30px;
-
   position: relative;
 
 }
@@ -432,14 +426,12 @@ body {
   FOOTER - Index & Pool footer
 ****************************************************************/
 .main-footer {
-  position:absolute;
   width:100%;
   padding-bottom: 5px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
   text-align: left;
-  
   bottom:0; /* stick to bottom */
   border-top: 1px solid #e7e7e7;
   background-color: rgb(130, 130, 130);
@@ -448,7 +440,6 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-  
   z-index: 10;
 }
 
@@ -463,8 +454,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
-
-  
   bottom:0; /* stick to bottom */
   border-top: 1px solid #e7e7e7;
   background-color: rgb(130, 130, 130);
@@ -512,7 +501,8 @@ body {
  text-align:center;
  font-size:45px;
  line-height:90px;
- background:rgba(0,0,0,0.2)
+ background:rgba(0,0,0,0.2);
+ color:#333;
 }
 .info-box-icon>img {
  max-width:100%
@@ -542,8 +532,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
-  color: #333333;
-  background: #fff;
+  color: #ddd;
   border: 1px solid #eeeeee;
   width: 100%;
   display: flex;
@@ -675,24 +664,17 @@ div.card-chart {
 .card .card-header {
   border-bottom: none;
   background: transparent;
+  margin:0;
 }
 
 .card-btn {
-  margin-top:  10px;
-  margin-bottom: 5px;
-  margin-left:  5px;
-  margin-right: 5px;
-   
+  margin: 5px 0;
   border-radius: 6px;
-
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 30px;
-  padding-right: 30px;
-  
+  padding: 5px;
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
+  width:100%;
  
 }
 
@@ -713,7 +695,7 @@ div.card-chart {
 	}
 
 	#pool-coins tr:hover {
-		background-color: #ccc;
+		/*background-color: #ccc;*/
 	}
 
 	#pool-coins td:hover {
@@ -721,7 +703,7 @@ div.card-chart {
 	}
 	
 	#pool-coins td {
-		font-size: 1.05rem;
+		/*font-size: 13px;*/
 	}
 	
 	#pool-coins td.coin {
@@ -733,16 +715,17 @@ div.card-chart {
 	}
 	
 	#pool-coins img.coinimg {
-		width: 32px;
-		height: 32px;
+		width: 28px;
+		height: 28px;
 		vertical-align: middle;
-		margin-left: .7rem;
-		margin-right: .7rem;
+		margin-left: 5px;
+		margin-right: 5px;
 		display: inline-block;
 	}
 	
 	#pool-coins a {
-		color: #000000 ;
+		color: #ddd;
+		/*font-size:13px;*/
 	}
 	
 	#pool-coins a:hover {
