@@ -1,0 +1,97 @@
+/*munnacss*/
+.bannersec{padding-bottom:20px;}
+.bannersec img{width:100%;}
+.bannersec h3{text-align:center; color:#fff;font-weight: normal;}
+.fixed-top {background: rgba(0,0,0,.7)}
+#blockList:hover{color:#fff !important;}
+footer {
+    position: relative;
+    border-top: 1px solid #e8e8e8;
+    text-align: left;
+    font-size: .9em;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+td{color:#ddd !important;}
+td:hover{color:#fff !important;}
+body.dark-mode footer {
+    border-top: 1px solid #122945;
+    background: rgba(0,0,0,.15);
+}
+body.dark-mode {
+    background-image: radial-gradient(#153154,#091423);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: silver;
+}
+body {
+	font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif !important;
+    height: 100%;
+    font-weight: 300;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #f4f6fa;
+}
+footer .copyright {
+    position: absolute;
+    display: block;
+    right: 1rem;
+    bottom: 2px;
+    margin: 0 auto;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+.polpoilingcoinsec{background:#091423;  border-top:1px solid #122945;border-bottom:1px solid #122945;}
+.polpoilingcoinsec .col-md-9, .polpoilingcoinsec .col-md-3{margin-bottom:30px;}
+.mtwitter{max-height:450px;overflow-y:scroll;}
+
+.polpoilingcoinsec .card-header{color:#fff !important;margin-top:0px;}
+.card {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	color: #ddd;
+	background: transparent !important;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.table {
+	font-family:-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif !important;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ddd !important;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+body.dark-mode table.pools-list td, body.dark-mode table.pools-list th {
+	border-top-color: #122945;
+}
+body.dark-mode .table thead th {
+	border-bottom-color: #183559;
+}
+.table thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+	font-weight:300 !important;
+}
+thead:hover th{background: transparent !important;}
+.border-0:hover {
+	background: transparent !important;
+}
+.pool-coin-table tr:hover {
+	background: transparent !important;
+	color:#fff !important;
+}
+#pool-coins a {
+	color: #fff !important;
+}
+
+
+
+
