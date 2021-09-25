@@ -1,46 +1,46 @@
 
 <div class="card">
 	<div class="card-header bg-teal-gradient">
-		<h4 class="card-title"><i class="fas fa-tools"></i> Miner Configuration</h4>
+		<h4 class="card-title"><i class="fas fa-tools"></i> Konfiguracja Kopacza</h4>
 		<p class="card-category">
-			This is the basic guide how to setup your miner to this pool.
+			Poradnik kofuguracji kopacza
 		</p>
 	</div>
 	<div class="card-body">
 		<div class="typo-line">
-			<h2>Getting started</h2>
+			<h2>Początki</h2>
 			<hr />
 			<p>
-				To get started mining and use this pool you need the following
+				Aby rozpocząć wydobywanie i korzystać z tej puli, potrzebujesz:
 			<ul>
-				<li>{{ coinName }} Wallet address</li>
-				<li>crypto mining software that supports the {{ coinName }} coin and algorithm {{ algorithm }}</li>
-				<li>hardware to run it on. This can be you home PC, mining rig, ASIC miner or cloud mining</li>
+				<li>adres Portfela {{ coinName }}</li>
+				<li>oprogramowanie do wydobywania kryptowalut, które obsługuje kryptowalutę {{ coinName }} i algorytm {{ algorithm }}</li>
+				<li>sprzęt do uruchomienia koparki. Może to być komputer domowy, platforma wydobywcza, górnik ASIC lub koparka w chmurze</li>
 			</ul>
 			</br>
-			<h4>{{ coinName }} Wallet address</h4>
-			A wallet address is needed to payout you shares mined at this pool server.</br>
-			When the total mined value is past the payout threshold, we will send your coin to this wallet address.</br>
+			<h4>Adres Portfela {{ coinName }}</h4>
+			Adres portfela jest potrzebny do wypłaty Twoich udziałów wydobytych w puli.</br>
+			Gdy całkowita wartość wydobycia przekroczy próg wypłaty, wyślemy Twoją monetę na ten adres portfela.</br>
 			</br>
 			</br>
-			<h4>Crypto mining software</h4>
-			To mine at this pool you can use any miner supporting the {{ algorithm }} algorithm or {{ coinName }} coin.</br>
-			Use an search engine and search for "{{ coinName }} miner software". Download the miner software and configure your crypto miner.</br>
+			<h4>Oprogramowanie do wydobywania kryptowalut</h4>
+			Do kopania w tej puli możesz użyć dowolnej koparki obsługującej algorytm {{ algorithm }} lub kryptowalutę {{ coinName }}.</br>
+			Użyj wyszukiwarki i wyszukaj "{{ coinName }} miner software". Pobierz oprogramowanie do kopania i skonfiguruj swoją koparkę kryptowalut.</br>
 			</p>
-			<p>Where:</p>
+			<p>Gdzie:</p>
 			<ul>
-				<li>POOL STRATUM ADDRESS AND PORT - one off the stratum addresses above in the Pool Configuration section depending on the difficuty you want</li>
-				<li>YOUR_WALLET_ADDRESS - your valid {{ coinName }} wallet address</li>
-				<li>WORKERNAME - an optional workername can be used to identify the miner or RIG</li>
-				<li>PASSWORD - use x or leave it blank</li>
+				<li>POOL STRATUM ADDRESS AND PORT - jeden z adresów warstwy powyżej w sekcji Konfiguracja puli w zależności od żądanej trudności</li>
+				<li>YOUR_WALLET_ADDRESS - adres twojego Portfela dla kryptowaluty {{ coinName }}</li>
+				<li>WORKERNAME - do identyfikacji kopacza lub RIGa można użyć opcjonalnej nazwy</li>
+				<li>PASSWORD - uzupełnij lub pozostaw puste</li>
 				</br>
-				Optional:
-				<li>STATIC DIFFICULTY - to mine with a static (fixed) difficulty simply use <code>d=xxx</code> as password in your miner configuration where <code>xxx</code> denotes your preferred difficulty.</li>
+				Opcjonalnie:
+				<li>STATIC DIFFICULTY - aby kopać ze statycznym (stałym) poziomem trudności, po prostu użyj <code>d=xxx</code> jako hasła w swojej konfiguracji górnika, gdzie <code>xxx</code> oznacza preferowany poziom trudności.</li>
 			</ul>
 			</br>
 			<hr />
 			<div class="well well-lg">
-				<span>For AMD Graphic cards in a Windows system, make sure you add this at the top of your .bat file:</span></br>
+				<span>Dla kart graficznych AMD w systemie Windows, upewnij się, że dodałeś poniższe linie do pliku .bat:</span></br>
 				<pre class="pre-help">
 setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100

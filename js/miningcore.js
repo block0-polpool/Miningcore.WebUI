@@ -4,10 +4,9 @@ var language;
 function getLanguage() {
 	localStorage.getItem("language") == null ? setLanguage("en") : false;
 	var url =
-		window.location.protocol + "//" + window.location.hostname + "/language/" +
+		window.location.protocol + "//" + window.location.hostname + ":/language/" +
 		localStorage.getItem("language") +
 		".json";
-	// console.log(url);
 	$.ajax({
 		type: "GET",
 		url: url,

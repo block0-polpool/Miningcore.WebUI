@@ -818,6 +818,11 @@
     <!-- Miningcore JS -->
     <script type="text/javascript">
       $(document).ready(function() {
+        var lang = localStorage.getItem("language");
+        if (lang == null) {
+          lang = 'en';
+        }
+        setLanguage(lang);
         loadIndex();
         loadTranslations();
       });
