@@ -426,7 +426,7 @@ function loadConnectPage() {
           }
           connectPoolConfig += "<tr><td>" + language.PoolFeeBText + "</td><td>" + value.poolFeePercent + "%</td></tr>";
           $.each(value.ports, function (port, options) {
-            connectPoolConfig += "<tr><td>stratum+tcp://" + coinType + "." + stratumAddress + ":" + port + "</td><td>";
+            connectPoolConfig += "<tr><td>stratum+tcp://" + stratumAddress + ":" + port + "</td><td>";
             if (typeof options.varDiff !== "undefined" && options.varDiff != null) {
               connectPoolConfig += language.DifficultyVariableText + " / " + options.varDiff.minDiff + " &harr; ";
               if (typeof options.varDiff.maxDiff === "undefined" || options.varDiff.maxDiff == null) {
@@ -456,7 +456,7 @@ function loadConnectPage() {
               function (responseText) {
                 var config = $("#miner-config")
                   .html()
-                  .replace(/{{ stratumAddress }}/g, coinType + "." + stratumAddress + ":" + defaultPort)
+                  .replace(/{{ stratumAddress }}/g, stratumAddress + ":" + defaultPort)
                   .replace(/{{ coinName }}/g, coinName)
                   .replace(/{{ algorithm }}/g, algorithm);
                 $(this).html(config);
@@ -465,7 +465,7 @@ function loadConnectPage() {
           } else {
             var config = $("#miner-config")
               .html()
-              .replace(/{{ stratumAddress }}/g, coinType + "." + stratumAddress + ":" + defaultPort)
+              .replace(/{{ stratumAddress }}/g, stratumAddress + ":" + defaultPort)
               .replace(/{{ coinName }}/g, coinName)
               .replace(/{{ algorithm }}/g, algorithm);
             $(this).html(config);
