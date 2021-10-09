@@ -81,7 +81,7 @@
     "A4P4P2": "akcje. Cz\u0119\u015b\u0107 kwoty twojej akcji jest u\u017cywana do obliczenia nagrody.",
     "A4P5P1": "Runda pi\u0105ta jest bardzo d\u0142uga. W tej rundzie twoje najni\u017csze akcje (w zaznaczonej na czerwono cz\u0119\u015bci) s\u0105 po cichu odrzucane, je\u015bli nie znajduj\u0105 si\u0119 w ostatnich",
     "A4P5P2": "akcjach.",
-    "A4P6P1": "PPLNS faworyzuje sta\u0142ych i/lub lojalnych cz\u0142onk\u00f3w puli nad pool hopperami.",
+    "A4P6P1": "PPLNS faworyzuje sta\u0142ych i/lub lojalnych cz\u0142onk\u00f3w puli nad u\u017cykownikami cz\u0119sto zmieniaj\u0105cymi pul\u0119.",
     "A4P6P2": "U\u017cytkownicy zmieniaj\u0105cy pul\u0119 obstawiaj\u0105 na \u201eszybk\u0105 wygran\u0105\u201d (jak przedstawiono w drugiej rundzie) z niskimi udzia\u0142ami na rund\u0119. Je\u015bli runda przekroczy okre\u015blon\u0105 liczb\u0119 udzia\u0142\u00f3w, \"przeskakuj\u0105\" one do innej proporcjonalnej puli, kt\u00f3ra niedawno rozpocz\u0119\u0142a now\u0105 rund\u0119. Zapewnia to lepsze nagrody dla u\u017cytk\u00f3wnik\u00f3w zmieniaj\u0105cych pul\u0119 cz\u0119sto w por\u00f3wnaniu z okazjonalnymi lub sta\u0142ymi kopaczami, kt\u00f3rzy s\u0105 lojalni wobec swojej puli. Przeskakiwanie do innych puli oznacza jednak, \u017ce tacy u\u017cytkownicy musz\u0105 wiedzie\u0107, kiedy rozpoczyna si\u0119 runda i jaka cz\u0119\u015b\u0107 udzia\u0142\u00f3w jest brana pod uwag\u0119 jako nagroda. Jest to bardzo \u0142atwe dzi\u0119ki proporcjonalnemu systemowi nagr\u00f3d. Podczas korzystania z PPLNS ta zasada ju\u017c nie dzia\u0142a. W d\u0142ugich rundach (takich jak runda pi\u0105ta powy\u017cej) udzia\u0142y w puli u\u017cytkownik\u00f3w zmieniaj\u0105cych cz\u0119sto pul\u0119 nie b\u0119d\u0105 brane pod uwag\u0119 przy obliczaniu nagr\u00f3d na korzy\u015b\u0107 lojalnych kopaczy. Wynika to z faktu, \u017ce wydobywaj\u0105 oni tylko na pocz\u0105tku rundy. W kr\u00f3tkich i normalnych rundach nie trac\u0105 swoich udzia\u0142\u00f3w. Ze wzgl\u0119du na to, \u017ce udzia\u0142y z poprzednich rund od lojalnych kopaczy s\u0105 brane pod uwag\u0119 dwukrotnie (a nawet cz\u0119\u015bciej w ekstremalnie kr\u00f3tkich rundach), nielojalni u\u017cytkownik nie otrzyma takiej samej nagrody jak lojalny u\u017cytkownik z systemu proporcjonalnych nagr\u00f3d.",
     "A4P7": "Zak\u0142adaj\u0105c, \u017ce znaleziono bloki, wyp\u0142aty s\u0105 przetwarzane i wysy\u0142ane co 10 minut. Ten proces jest w pe\u0142ni zautomatyzowany.",
     "Q5": "Kiedy otrzymam zap\u0142at\u0119?",
@@ -106,6 +106,5 @@
     "PoolFeeBText": "Op\u0142ata za pul\u0119",
     "DifficultyVariableText": "Zmienna trudno\u015bci",
     "DifficultyStaticText": "Statyczny poziom trudno\u015bci",
-    "GoMineText": "Wykop",
-    "": ""
+    "GoMineText": "Wykop"
 }
